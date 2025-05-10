@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/gunicorn/arbiter.py", line 608, in spawn_worker
+    worker.init_process()
+  File "/usr/local/lib/python3.11/site-packages/gunicorn/workers/gthread.py", line 94, in init_process
+    super().init_process()
+  File "/usr/local/lib/python3.11/site-packages/gunicorn/workers/base.py", line 135, in init_process
+    self.load_wsgi()
+  File "/usr/local/lib/python3.11/site-packages/gunicorn/workers/base.py", line 147, in load_wsgi
+    self.wsgi = self.app.wsgi()
